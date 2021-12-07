@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+body{
+  background-color: #FBFAF6;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+/* HEADER */
+header{
+  background-color: #f0a83e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+  color: white;
+}
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.categorias a {
+  margin: 0em 1em;
+  color: white;
+}
+.top {
+  background-color: #222222;
+  color: #f3f3f3;
+  padding: 0.5em 5em;
+  display: grid;
+  grid-template-columns: 80% 10% 5%;
+  align-items: center;
+}
+
+/* DROPDOWN TOP*/
+.btn {
+  background-color: #222222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #222222;
+}
+.dropdown-content a {
+  display: block;
+  color: #f3f3f3;
+  margin: 1em;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  display: inline-block;
+  justify-self: center;
+}
+/* slide */
+.slide {
+  background-image: url("http://localhost/RDM/assets/img/img1.png");
+  background-repeat: round;
+  height: 409px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.slide-ads {
+  display: flex;
+  flex-direction: column;
+  margin: 5em;
+  align-items: center;
+}
+.slide-ads * {
+  margin: 0.5em;
+}
+.slide-ads h1 {
+  background-color: white;
+  border-radius: 0.3em;
+  padding: 0.1em;
+}
+.slide-ads a {
+  background-color: #f0a83e;
+  border-radius: 0.3em;
+  border: none;
+  color: white;
+  padding: 1em;
+}
+
+/* MAIN */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.main *{
+  margin: 0.5em;
+  align-self: center;
+}
+.main .imgM {
+  align-self: center;
+}
+/* CARDS */
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin: 0em 9em 3em;
+  margin-top: 3em;
+  justify-content: space-around;
+  background-color: #FBFAF6;
+}
+.cards p{
+  color: #3C2313;
+  font-size: larger;
+}
+.cards #price{
+  color: #F0A83E;
+} 
+.cards div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FORMULARIO */
+.formu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.formu input{
+  display: block;
+}
+
+.formu form input{
+  border: 0em;
+  margin: 1em;
+  padding: 1em;
+  background-color: #3C2313;
+  color: white;
+  border-radius: 1em;
+  width: 25em;
+}
+
+.frmbtn{ 
+  display: flex;
+}
+.frmbtn #enviar{
+  background-color: #F0A83E;
+  width: 100%;
+  padding: 0.7em;
+}
+.frmbtn #resetear{
+  background-color: #8A8787;
+  width: 100%;
+  padding: 0.7em;
+}
+
+/* BOLETIN */
+.boletin{
+  background-color: #F0A83E;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.boletin .blts{
+  display: inherit;
+  align-items: center;
+  margin: 0em 2em;
+}
+.boletin .blts *{
+  margin: 0.3em;
+}
+.boletin input{
+  border: 0em;
+  padding: 1em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+}
+
+#sus{
+  background-color:#3C2313;
+}
+
+/* FOOTER */
+footer{
+  background-color: #3C2313;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0em 3em;
+  color: white;
+}
+.infocard{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card img{
+  margin: 1.5em;
+}
+.inform{
+  display: flex;
+  flex-direction: column;
+}
+
+/* BOTTOM */
+.bottom{
+  background-color: #222222;
+  color: #f3f3f3;
+  padding: 0.5em 5em;
+  text-align: center;
+}
